@@ -28,7 +28,7 @@ public class Task13 {
                     + "он должен быть меньше внешнего: ");
             r2=c.nextInt();
             
-            if(r1>r2){
+            if(r1<r2){
                 break;
             } else System.out.println("Попробуйте еще раз");
         }
