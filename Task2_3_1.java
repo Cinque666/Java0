@@ -19,7 +19,7 @@ public class Task2_3_1 {
         Scanner c = new Scanner(System.in);
         String letter="";
         
-        System.out.print("Введите букву для проверки. Латинского алфавита: ");
+        System.out.print("Введите букву латинского алфавита для проверки: ");
         letter=c.next();
         
         switch(letter){
