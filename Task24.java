@@ -101,6 +101,11 @@ public class Task24 {
                     System.out.println("Следующая дата " + day + " " + month
                     + " " + year);
                 }
+                if(day<28){
+                    day+=1;
+                    System.out.println("Следующая дата " + day + " " + month
+                    + " " + year);
+                }
         }
     }
     
