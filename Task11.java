@@ -34,20 +34,6 @@ public class Task11 {
         }
         else System.out.println("Числа различны");
         
-        /*if(a > b){
-            if(a > d){
-                System.out.println("Самое большое число а : " + a);
-            }
-            else {
-                System.out.println("Самое большое число d : " + d);
-            }
-        }
-        else if(b > d){
-            System.out.println("Самое большое число b : " + b);
-        }
-        else{
-            System.out.println("Самое большое число d : " + d);
-        }*/
     }
     
 }
