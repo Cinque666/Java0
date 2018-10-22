@@ -21,13 +21,13 @@ public class Task17 {
         System.out.println("Введие числа a, b: ");
         int a=c.nextInt(),b=c.nextInt();
         
-        a=a*100;
-        b=b*100;
-        a=a+b;
+        a*=100;
+        b*=100;
+        a+=b;
         b=a-b;
-        a=a-b;
-        a=a/100;
-        b=b/100;
+        a-=b;
+        a/=100;
+        b/=100;
         
         System.out.println(a + " " + b);
     }
