@@ -27,11 +27,11 @@ public class Task22 {
                 heads+=3;
                 eyes=heads*2;
             }
-            if(i<300){
+            else if(i<300){
                 heads+=2;
                 eyes=heads*2;
             }
-            if(i>=300){
+            else{
                 heads+=1;
                 eyes=heads*2;
             }
