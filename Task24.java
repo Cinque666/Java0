@@ -97,13 +97,13 @@ public class Task24 {
                 }
                 break;
             case 2:
-                if(day==29 && ((year%4==0)&& !(year%100==0))||(year%400==0)){
+                if(day==29 && (((year%4==0)&& !(year%100==0))||(year%400==0))){
                     day=1;
                     month+=1;
                     System.out.println("Следующая дата " + day + " " + month
                     + " " + year);
                 }
-                else if(day==28 && !((year%4==0)&& !(year%100==0))||(year%400==0)){
+                else if(day==28 && !(((year%4==0)&& !(year%100==0))||(year%400==0))){
                     day=1;
                     month+=1;
                     System.out.println("Следующая дата " + day + " " + month
