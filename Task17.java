@@ -21,14 +21,10 @@ public class Task17 {
         System.out.println("Введие числа a, b: ");
         int a=c.nextInt(),b=c.nextInt();
         
-        a*=100;
-        b*=100;
         a+=b;
         b=a-b;
         a-=b;
-        a/=100;
-        b/=100;
-        
+                
         System.out.println(a + " " + b);
     }
     
