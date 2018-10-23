@@ -20,13 +20,13 @@ public class Task24 {
         int day=0, month=0, year=0;
         
         while(true){
-            System.out.print("Введите день в формате ДД: ");
+            System.out.print("Введите день: ");
             day = c.nextInt();
         
-            System.out.print("Введите месяц в формате ММ: ");
+            System.out.print("Введите месяц: ");
             month = c.nextInt();
         
-            System.out.print("Введите год в формате ГГ: ");
+            System.out.print("Введите год: ");
             year = c.nextInt();
             
             if(day>31 && month > 12
