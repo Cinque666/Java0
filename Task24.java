@@ -67,18 +67,19 @@ public class Task24 {
                     System.out.println("Следующая дата " + day + " " + month 
                     + " " + year);
                 }
-                if(day<31){
+                else if(day<31){
                     day+=1;
                     System.out.println("Следующая дата " + day + " " + month
                     + " " + year);
                 }
-                if(day==31 && month==12){
+                else if(day==31 && month==12){
                     day=1;
                     month=1;
                     year+=1;
                     System.out.println("Следующая дата " + day + " " + month
                     + " " + year);
                 }
+                break;
             case 4:
             case 6:
             case 9:
@@ -89,23 +90,31 @@ public class Task24 {
                     System.out.println("Следующая дата " + day + " " + month
                     + " " + year);
                 }
-                if(day<30){
+                else if(day<30){
                     day+=1;
                     System.out.println("Следующая дата " + day + " " + month
                     + " " + year);
                 }
+                break;
             case 2:
-                if(day==28 || day==29){
+                if(day==29 && ((year%4==0)&& !(year%100==0))||(year%400==0)){
                     day=1;
                     month+=1;
                     System.out.println("Следующая дата " + day + " " + month
                     + " " + year);
                 }
-                if(day<28){
+                else if(day==28 && !((year%4==0)&& !(year%100==0))||(year%400==0)){
+                    day=1;
+                    month+=1;
+                    System.out.println("Следующая дата " + day + " " + month
+                    + " " + year);
+                } 
+                else{
                     day+=1;
                     System.out.println("Следующая дата " + day + " " + month
                     + " " + year);
                 }
+                break;
         }
     }
     
