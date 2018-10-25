@@ -37,12 +37,7 @@ public class Task3_3_3 {
             return true;
             
         }
-        else {
-            if(num%2==0){
-                return false;
-            }
-        }
-        
+                
         for(; i < num; i++){
             if(num%i==0){
                 return false;
