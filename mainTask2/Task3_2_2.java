@@ -38,11 +38,9 @@ public class Task3_2_2 {
     
     public static String reverseNum(int num){
         String x="";
-        int k=0;
         while (num > 0){
             k=num%10;
             num/=10;
-            x+=k;
         }
         return x;
     }
