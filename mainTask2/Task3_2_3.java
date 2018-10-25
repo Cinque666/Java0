@@ -31,11 +31,17 @@ public class Task3_3_3 {
     }
     
     public static boolean isPrimeNum(int num){
-        for(int i=2; i < num; i++){
+        int i=2;
+        if(num%2==0){
+            return false;
+        }
+        
+        for(; i < num; i++){
             if(num%i==0){
                 return false;
             }
         }
+        
         return true;
     }
     
