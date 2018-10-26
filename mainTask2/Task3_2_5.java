@@ -39,7 +39,7 @@ public class Task3_2_5 {
                 num2%=num1;
             }
         
-        int k = num1+num2;
+        int num1+num2;
         return k;
         }
     
