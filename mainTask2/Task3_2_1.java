@@ -23,7 +23,6 @@ public class Task3_2_1 {
     
     public static boolean isNaturalNum(int num){
         if(num<0){
-            System.out.println("Число не является натуральным");
             return false;
         }
         else return true;
