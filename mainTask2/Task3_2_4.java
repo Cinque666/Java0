@@ -16,7 +16,7 @@ public class Task3_2_4 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        int x=12,b=0;
+        int x=12;
         if(isNaturalNum(x)){
             for(int i = 1; i <= x; i++){
                 if(x%i==0 && isPrimeNum(i) && i%2!=0){
