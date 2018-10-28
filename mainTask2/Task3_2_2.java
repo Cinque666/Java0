@@ -40,6 +40,7 @@ public class Task3_2_2 {
         while (num > 0){
             k=num%10;
             num/=10;
+            x+=k;
         }
         return x;
     }
