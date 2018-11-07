@@ -30,11 +30,5 @@ public class Main {
         //task3.printlnVector();
         //task3.quickSort(0, 3);
         AdditionalTask task3_2 = new AdditionalTask();
-        /*for(int i=0; i<task3_2.arr.length; i++){
-            for(int j=0; i<task3_2.arr[i].length; j++){
-                System.out.println("arr[" + i + "]" + "[" + j + "]=" + task3_2.arr[i][j]);
-            }
-        }*/
-        //System.out.println(task3_2.arr);
-    }
+     }
 }
