@@ -21,12 +21,12 @@ public class AdditionalTask {
     public final void initializer(){
         try{
             for(int i=0; i < arr.length; i++){
-                for(int j=0; i < arr[i].length; i++){
+                for(int j=0; j < arr[i].length; j++){
                     this.arr[i][j]=(double)(Math.random()*999);
                 }
             }
             for(int i=0; i < arr.length; i++){
-                for(int j=0; i < arr[i].length; i++){
+                for(int j=0; j < arr[i].length; j++){
                     System.out.println(arr[i][j]);
                 }
             }
@@ -39,7 +39,7 @@ public class AdditionalTask {
     public void minElement(){
         double min=arr[0][0];
         for(int i=0; i < arr.length; i++)
-            for(int j=0; i < arr[i].length; i++){
+            for(int j=0; j < arr[i].length; j++){
                 if(min>arr[i][j]){
                     min=arr[i][j];
                 }
