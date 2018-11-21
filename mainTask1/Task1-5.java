@@ -1,14 +1,14 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * copyrighted.
+ * 
+ * authors e-mail: roma.zamoiski@gmail.com
  */
 package task1.pkg5;
 import java.util.Scanner;
 import java.util.ArrayList;
 /**
  *
- * @author Roman
+ * @author Roman Zamoiski
  */
 public class Task15 {
 
