@@ -1,3 +1,8 @@
+/*
+ * copyrighted.
+ * 
+ * authors e-mail: roma.zamoiski@gmail.com
+ */
 package by.epam.javatraining.Zamoiski.maintask3;
 import java.util.Vector;
 /**
