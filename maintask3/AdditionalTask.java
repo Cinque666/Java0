@@ -1,13 +1,13 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * copyrighted.
+ * 
+ * authors e-mail: roma.zamoiski@gmail.com
  */
 package by.epam.javatraining.Zamoiski.maintask3;
 
 /**
  *
- * @author Roman
+ * @author Roman Zamoiski
  */
 public class AdditionalTask {
     public double[][] arr;
@@ -18,6 +18,10 @@ public class AdditionalTask {
         //log.error("Constructor");
     }
     
+    /*
+     * Initialize two-demensional array
+     *
+     */
     public final void initializer(){
         try{
             for(int i=0; i < arr.length; i++){
@@ -36,6 +40,10 @@ public class AdditionalTask {
         }
     }
     
+    /*
+     * finds minimal Element in two-demensional array
+     *
+     */
     public void minElement(){
         double min=arr[0][0];
         for(int i=0; i < arr.length; i++)
@@ -57,6 +65,10 @@ public class AdditionalTask {
         }
     }
     
+    /*
+     * Cheks two-demensional array to symmetry
+     *
+     */
     public void symmetry(){
         boolean symm=true;
         for (int i = 0; i < arr.length; ++i){
@@ -69,6 +81,10 @@ public class AdditionalTask {
             }
     }
     
+    /*
+     * Cheks two-demensional array to symmetry
+     *
+     */
     public void average(){
         double aver=0;
         int counter=1;
@@ -81,6 +97,10 @@ public class AdditionalTask {
         System.out.println(aver/counter);
     }
     
+    /*
+     * Finds geometric mean
+     *
+     */
     public void geometricMean(){
         double composition=1;
         int counter=1;
@@ -93,6 +113,10 @@ public class AdditionalTask {
         System.out.println(Math.pow(composition, 1./counter));
     }
     
+    /*
+     * Transponate two-demensional array
+     *
+     */
     public void transponation(){
         for (int i = 0; i < arr.length; i++) {
             for (int j = i+1; j < arr[i].length; j++) {
