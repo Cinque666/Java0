@@ -1,21 +1,20 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * copyrighted.
+ * 
+ * authors e-mail: roma.zamoiski@gmail.com
  */
 package task3.pkg2.pkg5;
 
 /**
  *
- * @author Roman
+ * @author Roman Zamoiski
  */
 public class Task3_2_5 {
 
     /**
-     * @param args the command line arguments
+     * Test
      */
     public static void main(String[] args) {
-        // TODO code application logic here
         int x=45, y=31;
         if(isNaturalNum(x) && isNaturalNum(y)){
             System.out.println("НОД: " + greatestСommonDivisor(x, y));
