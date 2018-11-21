@@ -1,19 +1,16 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * copyrighted.
+ * 
+ * authors e-mail: roma.zamoiski@gmail.com
  */
 package task1.pkg3;
 import java.util.Scanner;
 /**
  *
- * @author Roman
+ * @author Roman Zamoiski
  */
 public class Task13 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
         // TODO code application logic here
         Scanner c = new Scanner(System.in);
